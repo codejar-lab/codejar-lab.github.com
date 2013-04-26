@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About developer team | DMLinux</title>
+  <title>Gallery | DMLinux</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -13,6 +13,16 @@
 	<script type="text/javascript" src="js/roundabout.js"></script>
   <script type="text/javascript" src="js/roundabout_shapes.js"></script>
   <script type="text/javascript" src="js/gallery_init.js"></script>
+  <script type="text/javascript" src="js/loopedslider.min.js"></script>
+  <script type="text/javascript">
+		$(function(){
+			// Option set as a global variable
+			$('#loopedSlider').loopedSlider({
+				container: ".wrap",
+				containerClick: false
+			});
+		});
+	</script>
   <!--[if lt IE 7]>
   	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="all">
   <![endif]-->
@@ -30,12 +40,11 @@
       <nav>
         <ul>
         	<li><a href="index.html">Home</a></li>
-			  <li><a href="features.html">Features</a></li>
+			  <li><a href="sitemap.html">Features</a></li>
            <li><a href="download.html">Download</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="gallery.html" class="current">Gallery</a></li>
           <li><a href="contacts.html">Contact</a></li>
-		   <li><a href="about.html" class="current">About</a></li>
-        
+		   <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </div>
@@ -58,24 +67,30 @@
       <div class="inside">
         <div class="wrapper">
         	<!-- aside -->
-           
+          <aside>
+            
+            <!-- loopedSlider begin -->
+         <!--   <div id="loopedSlider">	
+              <div class="wrap">
+                <div class="slides">
+                  <div><a href="#"><img src="images/thumb1.jpg" alt=""></a></div>
+                  <div><a href="#"><img src="images/thumb2.jpg" alt=""></a></div>
+                  <div><a href="#"><img src="images/thumb5.jpg" alt=""></a></div>
+                  <div><a href="#"><img src="images/thumb1.jpg" alt=""></a></div>
+                  <div><a href="#"><img src="images/thumb4.jpg" alt=""></a></div>
+                </div>
+              </div>
+              <ul class="nav-controls">
+              	<li><a href="#" class="previous">Previous Page</a></li>
+              	<li><a href="#" class="next">Next Page</a></li>
+              </ul>
+            </div>  -->
+            <!-- loopedSlider end -->
+          </aside>
           <!-- content -->
           <section id="content">
-            <article>
-            	<h2>About <span>Team Members</span></h2>
-              <!-- .team-list -->
-              <ul class="team-list">
-              	<li>
-                	
-                  <h3><a href="#">Hitesh Piprotar</a></h3>
-					
-                  <h3><a href="#">Arpan Chavda</a></h3>
-                  
-                </li>
-               
-              </ul>
-              <!-- /.team-list -->
-            </article> 
+            <article><h2><center>Quick Features of DMLinux 12.10</center></h2><iframe width="760" height="415" src="http://www.youtube.com/embed/rqRFc-6ToBg" frameborder="0" allowfullscreen></iframe>
+                       </article> 
           </section>
         </div>
       </div>
@@ -86,7 +101,7 @@
     <div class="container">
     	<div class="wrapper">
         <div class="fleft">Copyright&copy(2013) - Codejar Software Lab</div>
-              </div>
+        s     </div>
     </div>
   </footer>
   <script type="text/javascript"> Cufon.now(); </script>

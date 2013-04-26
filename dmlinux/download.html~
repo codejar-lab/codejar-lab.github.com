@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About developer team | DMLinux</title>
+  <title>Download DMLinux</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -31,11 +31,10 @@
         <ul>
         	<li><a href="index.html">Home</a></li>
 			  <li><a href="features.html">Features</a></li>
-           <li><a href="download.html">Download</a></li>
+           <li><a href="download.html" class="current">Download</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contacts.html">Contact</a></li>
-		   <li><a href="about.html" class="current">About</a></li>
-        
+		   <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </div>
@@ -56,36 +55,21 @@
   <div class="main-box">
     <div class="container">
       <div class="inside">
-        <div class="wrapper">
-        	<!-- aside -->
-           
-          <!-- content -->
-          <section id="content">
-            <article>
-            	<h2>About <span>Team Members</span></h2>
-              <!-- .team-list -->
-              <ul class="team-list">
-              	<li>
-                	
-                  <h3><a href="#">Hitesh Piprotar</a></h3>
-					
-                  <h3><a href="#">Arpan Chavda</a></h3>
-                  
-                </li>
-               
-              </ul>
-              <!-- /.team-list -->
-            </article> 
-          </section>
-        </div>
-      </div>
+        <h2>Download <span>DMLinux 12.10</span></h2>
+		<center><a href="https://docs.google.com/file/d/0B1eCmzlxihItVXhvX2pnd25EM1k/edit?pli=1"><img src="images/dwld.jpg" alt=""></a></br>
+			File size: 3.7 GB</br>
+			Mirroring is in progress</center>
+              </div>
+			  
     </div>
+	
   </div>
+
   <!-- footer -->
   <footer>
     <div class="container">
     	<div class="wrapper">
-        <div class="fleft">Copyright&copy(2013) - Codejar Software Lab</div>
+       <div class="fleft">Copyright&copy(2013) - Codejar Software Lab</div>
               </div>
     </div>
   </footer>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About developer team | DMLinux</title>
+  <title>Features | DMLinux</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -30,12 +30,11 @@
       <nav>
         <ul>
         	<li><a href="index.html">Home</a></li>
-			  <li><a href="features.html">Features</a></li>
+			  <li><a href="features.html" class="current">Features</a></li>
            <li><a href="download.html">Download</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contacts.html">Contact</a></li>
-		   <li><a href="about.html" class="current">About</a></li>
-        
+		   <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </div>
@@ -56,31 +55,25 @@
   <div class="main-box">
     <div class="container">
       <div class="inside">
-        <div class="wrapper">
-        	<!-- aside -->
-           
-          <!-- content -->
-          <section id="content">
-            <article>
-            	<h2>About <span>Team Members</span></h2>
-              <!-- .team-list -->
-              <ul class="team-list">
-              	<li>
-                	
-                  <h3><a href="#">Hitesh Piprotar</a></h3>
-					
-                  <h3><a href="#">Arpan Chavda</a></h3>
-                  
-                </li>
-               
-              </ul>
-              <!-- /.team-list -->
-            </article> 
-          </section>
-        </div>
+        <h2>Features</h2>
+        <ul>
+			<li>Productive GUI(DE).</li>
+			<li>Language support like python,perl,ruby,etc.</li>
+			<li>Inbuilt essential IDEs like eclipse,netbeans,Qt.</li>
+			<li>Markdown support.</li>
+			<li>Customized DE with Eye-candy theme and icons.</li>
+			<li>Inbuilt Web server (Apache,tomcat and Glassfish).</li>
+			<li>Aptana studio IDE for web developers.</li>
+			<li>Customised Firfox with FirefoxOS for mobile phone.</li>
+			<li>Linux app development utilities like quickly toolkit.</li>
+			<li>ISO size : around 3 GB.</li></ul>
       </div>
-    </div>
-  </div>
+Please find out detailed wiki page here containing Quick How To's and FAQ</br>
+<a href="https://github.com/codejar-lab/dmlinux/wiki">DMLinux Wiki</a>      
+</div>
+
+</div>
+
   <!-- footer -->
   <footer>
     <div class="container">

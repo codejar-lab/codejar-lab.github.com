@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About developer team | DMLinux</title>
+  <title>Contact us | DMLinux</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -30,11 +30,11 @@
       <nav>
         <ul>
         	<li><a href="index.html">Home</a></li>
-			  <li><a href="features.html">Features</a></li>
+			  <li><a href="sitemap.html">Features</a></li>
            <li><a href="download.html">Download</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contacts.html">Contact</a></li>
-		   <li><a href="about.html" class="current">About</a></li>
+          <li><a href="contacts.html" class="current">Contact</a></li>
+		   <li><a href="about.html">About</a></li>
         
         </ul>
       </nav>
@@ -58,23 +58,51 @@
       <div class="inside">
         <div class="wrapper">
         	<!-- aside -->
-           
+          <aside>
+            <h2> <span>Developers</span></h2>
+            <!-- .contacts -->
+            <ul class="contacts">
+			<li><strong>Name:</strong><a href="#">Arpan Chavda</a></li>
+            	
+              
+              <li><strong>Email:</strong><a href="#">arpanchavdaeng@gmail.com</a></li>
+            </ul>
+			
+			<ul class="contacts">
+            	
+              <li><strong>Name:</strong><a href="#">Hitesh Piprotar</a></li>
+              <li><strong>Email:</strong><a href="#">hiteshpiprotar.ce@gmail.com</a></li>
+            </ul>
+			
+            <!-- /.contacts -->
+            <h3></h3>
+            
+          </aside>
           <!-- content -->
           <section id="content">
             <article>
-            	<h2>About <span>Team Members</span></h2>
-              <!-- .team-list -->
-              <ul class="team-list">
-              	<li>
-                	
-                  <h3><a href="#">Hitesh Piprotar</a></h3>
-					
-                  <h3><a href="#">Arpan Chavda</a></h3>
-                  
-                </li>
-               
-              </ul>
-              <!-- /.team-list -->
+            	<h2>Contact <span>Form</span></h2>
+              <form id="contacts-form" action="" method="post">
+                <fieldset>
+                  <div class="field">
+                    <label>Your Name:</label>
+                    <input type="text" value=""/>
+                  </div>
+                  <div class="field">
+                    <label>Your E-mail:</label>
+                    <input type="email" value=""/>
+                  </div>
+                  <div class="field">
+                    <label>Your Website:</label>
+                    <input type="url" value=""/>
+                  </div>
+                  <div class="field">
+                    <label>Your Message:</label>
+                    <textarea></textarea>
+                  </div>
+                  <div><a href="#" onclick="document.getElementById('contacts-form').submit()">Send Your Message!</a></div>
+                </fieldset>
+              </form>
             </article> 
           </section>
         </div>
@@ -86,7 +114,8 @@
     <div class="container">
     	<div class="wrapper">
         <div class="fleft">Copyright&copy(2013) - Codejar Software Lab</div>
-              </div>
+        
+      </div>
     </div>
   </footer>
   <script type="text/javascript"> Cufon.now(); </script>

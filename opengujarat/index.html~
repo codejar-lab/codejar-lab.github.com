@@ -48,7 +48,7 @@
 			</ul>
 			<ul>
 				<li><a href="features.html">ખાસિયતો</a></li>
-				<li><a href="download.html">ડાઉનલોડ</a></li>
+				<li><a href="services.html">ડાઉનલોડ</a></li>
 			</ul>
 			<ul>
 				<li><a href="blog.html">પ્રોજેક્ટ વિષે</a></li>
@@ -152,11 +152,11 @@
 		
 		 </section>
 	<!--
-	<section class="download grid-wrap">
+	<section class="services grid-wrap">
 		<header class="grid col-full">
 			<hr>
-			<p class="fleft">download</p>
-			<a href="download.html" class="arrow fright">see more download</a>
+			<p class="fleft">Services</p>
+			<a href="services.html" class="arrow fright">see more services</a>
 		</header>
 		
 		<article class="grid col-one-third mq3-col-full">
@@ -251,7 +251,7 @@
 				<li><a href="index.html">હોમ</a></li>
 				<li><a href="about.html">ખાસિયતો</a></li>
 				<li><a href="features.html">પ્રોજેક્ટ વિષે</a></li>
-				<li><a href="download.html">અમારા વિષે</a></li>
+				<li><a href="services.html">અમારા વિષે</a></li>
 				<li><a href="blog.html">ડાઉનલોડ</a></li>
 				<li><a href="contact.html">સંપર્ક</a></li>
 			</ul>

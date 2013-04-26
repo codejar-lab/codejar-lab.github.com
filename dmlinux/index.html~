@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About developer team | DMLinux</title>
+  <title>Home | DMLinux GNU/Linux Operating system</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -9,10 +9,10 @@
   <script type="text/javascript" src="js/cufon-yui.js"></script>
   <script type="text/javascript" src="js/Humanst521_BT_400.font.js"></script>
   <script type="text/javascript" src="js/Humanst521_Lt_BT_400.font.js"></script>
-  <script type="text/javascript" src="js/cufon-replace.js"></script>
 	<script type="text/javascript" src="js/roundabout.js"></script>
   <script type="text/javascript" src="js/roundabout_shapes.js"></script>
   <script type="text/javascript" src="js/gallery_init.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
   <!--[if lt IE 7]>
   	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="all">
   <![endif]-->
@@ -29,12 +29,12 @@
     	<h1><a href="index.html">DMLinux</a></h1>
       <nav>
         <ul>
-        	<li><a href="index.html">Home</a></li>
+        	<li><a href="index.html" class="current">Home</a></li>
 			  <li><a href="features.html">Features</a></li>
            <li><a href="download.html">Download</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contacts.html">Contact</a></li>
-		   <li><a href="about.html" class="current">About</a></li>
+		   <li><a href="about.html">About</a></li>
         
         </ul>
       </nav>
@@ -44,11 +44,11 @@
   <section id="gallery">
   	<div class="container">
     	<ul id="myRoundabout">
-      	<li><img src="images/slide3.jpg" alt=""></li>
+      	<li><img src="images/slide1.jpg" alt=""></li>
         <li><img src="images/slide2.jpg" alt=""></li>
-        <li><img src="images/slide5.jpg" alt=""></li>
-        <li><img src="images/slide1.jpg" alt=""></li>
+        <li><img src="images/slide3.jpg" alt=""></li>
         <li><img src="images/slide4.jpg" alt=""></li>
+        <li><img src="images/slide5.jpg" alt=""></li>
       </ul>
   	</div>
   </section>
@@ -58,23 +58,37 @@
       <div class="inside">
         <div class="wrapper">
         	<!-- aside -->
-           
+          <aside>
+            <h2>Recent <span>News</span></h2>
+            <!-- .news -->
+            <ul class="news">
+		<li>
+              	<figure><strong>1</strong>May</figure>
+                <h3><a href="#">DMLinux final release</a></h3>
+                Final version of system<a href="#"></a>
+              </li>            	
+		<li>
+              	<figure><strong>9</strong>February</figure>
+                <h3><a href="#">DMLinux testing release</a></h3>
+                Intitial version of system<a href="#"></a>
+              </li>
+              <li>
+              	<figure><strong>16</strong>January</figure>
+                <h3><a href="#">GitHub Hosting</a></h3>
+                Entire Project is hosted on github.<br/>
+					<a href="https://github.com/codejar-lab/dmlinux">Click here</a> to see.
+              </li>
+              
+            </ul>
+            <!-- /.news -->
+          </aside>
           <!-- content -->
           <section id="content">
             <article>
-            	<h2>About <span>Team Members</span></h2>
-              <!-- .team-list -->
-              <ul class="team-list">
-              	<li>
-                	
-                  <h3><a href="#">Hitesh Piprotar</a></h3>
-					
-                  <h3><a href="#">Arpan Chavda</a></h3>
-                  
-                </li>
-               
-              </ul>
-              <!-- /.team-list -->
+            	<h2>Welcome to <span>DMlinux</span></h2>
+              <p>DMLinux is a Open source and Free GNU/Linux Operating system originally forked from Ubuntu.<br/>It is specially developed for developers and Computer Science/I.T. students.It helps Coders,Programmers,Software Engineers in their everyday's tasks</p>
+              <figure><center><a href="download.html"><img src="banner1.jpg"></a></center></figure>
+              <p>
             </article> 
           </section>
         </div>
@@ -86,7 +100,7 @@
     <div class="container">
     	<div class="wrapper">
         <div class="fleft">Copyright&copy(2013) - Codejar Software Lab</div>
-              </div>
+    </div>
     </div>
   </footer>
   <script type="text/javascript"> Cufon.now(); </script>
